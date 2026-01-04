@@ -3,7 +3,7 @@ FROM eclipse-temurin:21-jre-alpine
 WORKDIR /app
 
 # Copy the pre-built jar
-COPY target/test.jar test.jar
+COPY target/*.jar test.jar
 
 # Expose port
 EXPOSE 8080
