@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+#spring:
+#  docker:
+#    compose:
+#      enabled: false
+
+proxy:
+  enabled: false
+  url: localhost
+  port: 3128

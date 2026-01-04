@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    include:
+      - test-app
+  devtools:
+    add-properties: false
